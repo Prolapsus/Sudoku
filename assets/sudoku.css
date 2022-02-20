@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#plateau {
+    width: 810px;
+    height: 810px;
+    position: absolute;
+    top: 50%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    float: left;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
