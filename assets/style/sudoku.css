@@ -33,12 +33,15 @@ main {
     width: 70px;
     height: 70px;
     text-align: center;
+    line-height: 70px;
     font-size: 30px;
-    padding: 15px;
     float: left;
     border: 1px solid white;
     background-color: black;
     color: white;
+}
+input {
+    padding-left: 15px;
 }
 footer {
     height: 10vh;
